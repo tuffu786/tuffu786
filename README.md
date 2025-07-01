@@ -5,7 +5,7 @@
 
 Here are some ideas to get you started:
 
-🚀 Final-year Computer Engineering student | 💻 Passionate about Software Development, AI & Cybersecurity
+🚀 Final-year Computer Engineering student | 💻 Passionate about Software Development, AI & Cybersecurity <br></br>
 👨‍💻 Proficient in Python, Java, Kotlin | Skilled in Algorithms, Data Structures & OOP
 📱 Interned at Madvice Infotech – hands-on with Mobile App UI & Kotlin Frameworks
 🧠 Enthusiast in Data Science, Machine Learning & Ethical Hacking
