@@ -62,7 +62,7 @@
 ### 🔗 Connect With Me
 
 <p align="center">
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="tufailmalek18@gmail.com"><img src="https://miro.medium.com/v2/resize:fit:807/1*O9pYXOq8roaoJsVzBdH_OQ.jpeg"></a>
   <a href="https://www.linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </p>
 
