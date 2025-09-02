@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dil Se — Sorry Aafi</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/style.css" />
+  <style>
+    .actions{ display:flex; gap:12px; flex-wrap:wrap; margin-top:12px; }
+  </style>
+</head>
+<body>
+  <canvas id="heartsCanvas"></canvas>
+  <div class="bg"><div class="gradient-orbs"><div class="orb"></div><div class="orb"></div></div></div>
+  <div class="container">
+    <div class="card">
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="story.html">Humari Kahani</a>
+        <a href="gallery.html">Moments</a>
+        <a href="letter.html">Dil Se</a>
+      </nav>
+      <h1 class="title">Dil Se <span class="heart">💌</span></h1>
+      <div id="letter" class="letter"></div>
+      <div class="actions">
+        <button class="button" onclick="petalsBurst(innerWidth/2, 120)">Maaf kiya? 🌸</button>
+        <a class="button ghost" href="story.html">Kahani par wapas</a>
+      </div>
+      <div class="footer">Page 4/4 · Auto typewriter letter + petals on click 🌸</div>
+    </div>
+  </div>
+  <script src="assets/script.js"></script>
+  <script>
+    const nameEl = document.querySelector('[data-her]');
+    const params = new URLSearchParams(location.search);
+    const her = params.get('her') || 'Aafi';
+    const you = params.get('you') || 'Main';
+    const msg = `Dear ${her},
+
+Main maanta hoon ki iss baar mujhse galti ho gayi. Par meri niyat kabhi buri nahi thi. 
+Jab tum naraaz hoti ho na, dil sach me udaas ho jaata hai. 
+Tum meri khushi ho. Tumse baat karke hi din complete lagta hai.
+
+Aaj main tumse seedha keh raha hoon — I'm sorry. 
+Main promise karta hoon: zyada care, zyada patience, aur zyada pyaar.
+Jo cheezein tumhe chubhi, unhe main sudhaarne ki poori koshish karunga.
+
+Bas ek mauka aur de do — main har din tumhe proud feel karaunga.
+
+Hamesha tumhara,
+${you} 💖`;
+    typeLetter(msg, 'letter', 20);
+  </script>
+</body>
+</html>
